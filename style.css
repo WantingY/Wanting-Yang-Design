@@ -503,12 +503,11 @@ blockquote {
 	font-family: var(--font-secondary);
 	height: 55vh;
 	overflow: hidden;
-	padding: 0 2rem;
 	text-align: center;
 }
 .project-text1 h2, .project-text2 h2 {
 	color: unset;
-	padding-top: 1rem;
+	padding: 1rem;
 	text-transform: uppercase;
 }
 
@@ -614,6 +613,10 @@ div ul {
 	font-size: var(--size-three-up);
 	margin-top: 1rem;
 }
+.resume-h2 {
+    font-size: var(--size-two-up);
+    margin-top: 1.3rem;
+}
 .resume-text {
 	color: var(--color-primary);
 	font-weight: 400;
@@ -636,6 +639,7 @@ div ul {
 	background: var(--color-primary);
 	border-radius: 0 1rem 0 0 ;
 	color: white;
+    font-weight: 400;
 	padding: 0.5rem 1rem;
 }
 .pdf {
@@ -700,7 +704,7 @@ textarea {
 input[type="submit"] {
 	background: var(--color-primary);
 	border: none;
-    font-size: var(--size-two-up);
+    font-size: var(--size-one-up);
 	color: #fff;
 	margin-top: 1rem;
 	min-width: 300px;
